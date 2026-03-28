@@ -9,7 +9,6 @@ class StudentPerformance:
             print("No scores available to calculate difference")
             return None
         
-
 s1 = StudentPerformance([])
 diff1 = s1.score_difference()
 diff1 is not None and print("Difference between last and first score is: ", diff1)

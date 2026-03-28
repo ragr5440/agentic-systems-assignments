@@ -1,0 +1,26 @@
+Agentic AI frameworks are development tools to help developers build AI agents more quickly and efficiently. These frameworks are platforms, libraries or development environments that simplify the creation of AI agents. With built-in components and structures inside these frameworks, building AI agents becomes a more simplistic task and eliminates complexity involved in creating everthing from scratch.
+
+There are 2 broad categories of frameworks that help build AI agents.
+    Low code or No code frameworks - these require minimal coding to develop the agents.
+    Coding frameworks - high level of programming and coding is required to develo the agents when using these frameworks.
+
+LangChain
+This is one of the simple frameowrks created to build AI agents for very simple tasks. It is fast to implement and equips developers with tools to link prompts, LLMs, memory and external APIs into structured workflows.
+
+LangGraph
+This framework is built on top of LangChain and suitable for more complex and multi-agent tasks or workflows.The workflows can be desgined as graphs where each node is a step in the process and transitions to the next steps are clearly defined.
+
+Crew AI
+This is a multi-agent framework where the agents work together as a crew in acheiving the objective. Each agent is assigned a specialized role and developed to complete a specific tasks. Modularity, task delegation and parallel task execution are some of the key features of this framework. Ideal usecases are content generation, research, etc.
+
+AutoGen
+This is a Microsoft-native framework that is optimized for Microsoft technology stack. Typically used for complex, multi-agent tasks and allows switching between mulitple LLMs to achieve the objective. It also provides cross-language support betwwen Python and .Net.
+
+Google ADK
+This is another powerful framework, optimized for Google technology stack and Gemini. It is model agnostic and compatible with other frameworks.
+
+Vercel AI SDK
+This is an open source framework, typically used for building chatbots, streaming and conversational agents in Javascript and Typescript.
+
+N8N
+This is a no-code/low-code framework that requires minimal coding from the developers. the UI for N8N can be accessed through their website, and following simple instructions without coding allows creation of AI agents. This framework does require strong human feedback loop to perfectly create the desired agents. 

@@ -3,7 +3,6 @@ from tables import students
 from sqlalchemy import insert, select
 
 def create_student(name: str, age: int, city: str):
-    # use a transaction to ensure INSERTs are committed
     with engine.begin() as connection:
         insert_query = insert(students).values(name=name, age=age, city=city)
         connection.execute(insert_query)
